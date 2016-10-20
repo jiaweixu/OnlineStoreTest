@@ -1,7 +1,7 @@
 # IS2545 DELIVERABLE 3: Web Testing 
 ## Jiawei XU (jix20)
 
-Features, User Story and Scenarios:</br>
+### Features, User Story and Scenarios:</br>
 </br>Feature: Add product to Cart
 	
 	As a user
@@ -20,7 +20,7 @@ Features, User Story and Scenarios:</br>
 </br>When User add one product to the cart
 </br>Then The item number in the cart is "2"
 </br>
-</br>Feature: Login Action
+### Feature: Login Action
 
 	As a user
 	I want to log into my account 
@@ -44,7 +44,7 @@ Features, User Story and Scenarios:</br>
 </br>Then User failed to login with "ERROR" message
 </br>
 
-</br>Feature: Page availability
+### Feature: Page availability
 
 	As a user
 	I want to navigate to a specific page 
@@ -71,7 +71,7 @@ Features, User Story and Scenarios:</br>
 </br>Then User can go into the "Product" page
 </br>
 
-The challenge in this project is:</br>
+### The challenge in this project is:</br>
 <ol> 
 <li>WebDriver problem:</br></li>
 For selenium 3, gecko driver is needed. And different version of browser and Selenium may give different results.
@@ -95,8 +95,7 @@ Not using junit.framework.Assert but org.junit.Assert can resolve this problem
 		thread.sleep(5000);
 </br>
 
-
-2. Testing results:</br>
+### Testing results:</br>
 ![TestResult1](https://github.com/jiaweixu/OnlineStoreTest/blob/master/Materials/Test_result1.PNG "Testing Results")
 ![TestResult2](https://github.com/jiaweixu/OnlineStoreTest/blob/master/Materials/Test_result2.PNG "Testing Results")
 </br>
