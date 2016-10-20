@@ -27,6 +27,6 @@ Not using junit.framework.Assert but org.junit.Assert can resolve this problem
 
 
 2. Testing results:</br>
-![TestResult1](https://github.com/jiaweixu/OnlineStoreTest/tree/master/Materials/Test_result1.png "Testing Results")
-![TestResult2](https://github.com/jiaweixu/OnlineStoreTest/tree/master/Materials/Test_result1.png "Testing Results")
+![TestResult1](https://github.com/jiaweixu/OnlineStoreTest/blob/master/Materials/Test_result1.PNG "Testing Results")
+![TestResult2](https://github.com/jiaweixu/OnlineStoreTest/blob/master/Materials/Test_result2.PNG "Testing Results")
 </br>
