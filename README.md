@@ -2,7 +2,7 @@
 ## Jiawei XU (jix20)
 
 ### Features, User Story and Scenarios:</br>
-</br>Feature: Add product to Cart
+#### Feature: Add product to Cart
 	
 	As a user
 	I want to add a product to cart
@@ -20,7 +20,7 @@
 </br>When User add one product to the cart
 </br>Then The item number in the cart is "2"
 </br>
-### Feature: Login Action
+#### Feature: Login Action
 
 	As a user
 	I want to log into my account 
@@ -44,7 +44,7 @@
 </br>Then User failed to login with "ERROR" message
 </br>
 
-### Feature: Page availability
+#### Feature: Page availability
 
 	As a user
 	I want to navigate to a specific page 
