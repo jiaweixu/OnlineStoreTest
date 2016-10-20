@@ -1,9 +1,12 @@
 # IS2545 DELIVERABLE 3: Web Testing 
 ## Jiawei XU (jix20)
+</br>
+This project is to use Selenium(3.0.1 for Java), Cucumber(1.2.5 for core), Gherkin(2.12.4), and Junit(4.12), etc with Eclipse IDE to test an online store website: http://store.demoqa.com.
+
 ### Demo Video of the whole test on my Windows laptop:
 https://youtu.be/NiogsopBanc
 
-### Features, User Story and Scenarios:</br>
+### 3 Features/User Stories and 9 Scenarios:</br>
 #### Feature: Add product to Cart
 	
 	As a user
@@ -97,6 +100,12 @@ Not using junit.framework.Assert but org.junit.Assert can resolve this problem
 		thread.sleep(5000);
 </br>
 
+<Li>Sometimes, it the website response is slow, the test may fail:</br></li>
+
+<Li>When Test login function with many times, the website may ban the current IP address.</br></li>
+
+		
+</br>
 ### Testing results:</br>
 ![TestResult1](https://github.com/jiaweixu/OnlineStoreTest/blob/master/Materials/Test_result1.PNG "Testing Results")
 ![TestResult2](https://github.com/jiaweixu/OnlineStoreTest/blob/master/Materials/Test_result2.PNG "Testing Results")
