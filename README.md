@@ -2,7 +2,7 @@
 ## Jiawei XU (jix20)
 
 Features, User Story and Scenarios:
-Feature: Add product to Cart
+	Feature: Add product to Cart
 	
 	As a user
 	I want to add a product to cart
