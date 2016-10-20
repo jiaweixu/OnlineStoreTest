@@ -1,75 +1,75 @@
 # IS2545 DELIVERABLE 3: Web Testing 
 ## Jiawei XU (jix20)
 
-Features, User Story and Scenarios:
-	Feature: Add product to Cart
+Features, User Story and Scenarios:</br>
+</br>Feature: Add product to Cart
 	
 	As a user
 	I want to add a product to cart
 	that I may purchase it later
 
 
-Scenario: Add a product to an empty cart
-Given User browse the product page
-When User add one product to an empty cart
-Then The item number in the cart is "1"
+</br>Scenario: Add a product to an empty cart
+</br>Given User browse the product page
+</br>When User add one product to an empty cart
+</br>Then The item number in the cart is "1"
+</br>
 
-
-Scenario: Add a product to an cart with 1 item
-Given User browse the product page with cart already has 1 item
-When User add one product to the cart
-Then The item number in the cart is "2"
-
-Feature: Login Action
+</br>Scenario: Add a product to an cart with 1 item
+</br>Given User browse the product page with cart already has 1 item
+</br>When User add one product to the cart
+</br>Then The item number in the cart is "2"
+</br>
+</br>Feature: Login Action
 
 	As a user
 	I want to log into my account 
 	so that I can browse the website as a member
 
-Scenario: Successful login with valid credentials
-Given User is on Home page
-When User navigate to LogIn page
-And User enters "jiaweixu001" and "Abc123!@#"
-Then User successfully login
+</br>Scenario: Successful login with valid credentials
+</br>Given User is on Home page
+</br>When User navigate to LogIn page
+</br>And User enters "jiaweixu001" and "Abc123!@#"
+</br>Then User successfully login
+</br>
+</br>Scenario: Successful LogOut
+</br>Given User has logged in with "jiaweixu001" and "Abc123!@#"
+</br>When User logout from the website
+</br>Then User logout Successfully
+</br>
+</br>Scenario: Failed login with invalid credentials
+</br>Given User is on Home page
+</br>When User navigate to LogIn page
+</br>And User enters "username" and "password"
+</br>Then User failed to login with "ERROR" message
+</br>
 
-Scenario: Successful LogOut
-Given User has logged in with "jiaweixu001" and "Abc123!@#"
-When User logout from the website
-Then User logout Successfully
-
-Scenario: Failed login with invalid credentials
-Given User is on Home page
-When User navigate to LogIn page
-And User enters "username" and "password"
-Then User failed to login with "ERROR" message
-
-
-Feature: Page availability
+</br>Feature: Page availability
 
 	As a user
 	I want to navigate to a specific page 
 	so that I can browse the content on that page
 
-Scenario: Home Page Test
-Given User open a Firefox browser
-When User input the URL address "http://www.store.demoqa.com"
-Then User can go into the "ONLINE STORE" page
-
-Scenario: Home Page Link Test
-Given User is on Home page
-When User click the Home button
-Then User can go into the "ONLINE STORE" page	
-
-Scenario: Product Category Page Link Test
-Given User is on Home page
-When User click the Product Category button
-Then User can go into the "Product" page
-
-Scenario: All Product Page Link Test
-Given User is on Home page
-When User click the All Product button
-Then User can go into the "Product" page
-
+</br>Scenario: Home Page Test
+</br>Given User open a Firefox browser
+</br>When User input the URL address "http://www.store.demoqa.com"
+</br>Then User can go into the "ONLINE STORE" page
+</br>
+</br>Scenario: Home Page Link Test
+</br>Given User is on Home page
+</br>When User click the Home button
+</br>Then User can go into the "ONLINE STORE" page	
+</br>
+</br>Scenario: Product Category Page Link Test
+</br>Given User is on Home page
+</br>When User click the Product Category button
+</br>Then User can go into the "Product" page
+</br>
+</br>Scenario: All Product Page Link Test
+</br>Given User is on Home page
+</br>When User click the All Product button
+</br>Then User can go into the "Product" page
+</br>
 
 The challenge in this project is:</br>
 <ol> 
