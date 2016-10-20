@@ -100,9 +100,9 @@ Not using junit.framework.Assert but org.junit.Assert can resolve this problem
 		thread.sleep(5000);
 </br>
 
-<Li>Sometimes, it the website response is slow, the test may fail:</br></li>
+<Li>Sometimes, if the website response is slow, the test may fail.</br></li>
 
-<Li>When Test login function with many times, the website may ban the current IP address.</br></li>
+<Li>When testing login function with many times, the website may ban the current IP address.</br></li>
 
 		
 </br>
