@@ -102,7 +102,8 @@ Not using junit.framework.Assert but org.junit.Assert can resolve this problem
 
 <Li>Sometimes, if the website response is slow, the test may fail.</br></li>
 
-<Li>When testing login function with many times, the website may block the current IP address to make the test failed.</br></li>
+<Li>When testing login function with many times, the website may block the current IP address to make the test failed.
+    Changing IP address can solve this problem.</br></li>
 ![TestFailed](https://github.com/jiaweixu/OnlineStoreTest/blob/master/Materials/FailedReason.PNG "Testing Failed")
 		
 </br>
