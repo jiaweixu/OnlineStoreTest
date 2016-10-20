@@ -1,5 +1,7 @@
 # IS2545 DELIVERABLE 3: Web Testing 
 ## Jiawei XU (jix20)
+### Demo Video of the whole test on my Windows laptop:
+https://youtu.be/NiogsopBanc
 
 ### Features, User Story and Scenarios:</br>
 #### Feature: Add product to Cart
